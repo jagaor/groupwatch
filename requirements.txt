@@ -1,0 +1,28 @@
+# GroupWatch - Dependencias del proyecto
+# Autor: Javier Garrido Ortiz
+
+# Cliente LDAP para consultas a Active Directory
+ldap3==2.9.1
+
+# Bot de Telegram para el envio de alertas
+python-telegram-bot==21.6
+
+# Planificador de tareas para el ciclo de sondeo continuo
+APScheduler==3.10.4
+
+# Salida enriquecida por consola
+rich==13.9.4
+
+# Carga de variables de entorno desde .env
+python-dotenv==1.0.1
+
+# Servidor LDAP simulado (modo --mock)
+fastapi==0.115.4
+uvicorn==0.32.0
+
+# Framework de pruebas
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# Cliente HTTP para tests del servidor FastAPI
+httpx==0.27.2
